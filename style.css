@@ -22,15 +22,6 @@
     50%{background-image: url(images/5.jpg);}
 }
 
-@keyframes slider{
-    0%{background-image: url(images/1.jpg);}
-    15%{background-image: url(images/7.jpg);}
-    30%{background-image: url(images/4.jpg);}
-    45%{background-image: url(images/3.jpg);}
-    60%{background-image: url(images/6.jpg);}
-    75%{background-image: url(images/2.jpg);}
-    95%{background-image: url(images/5.jpg);}
-}
 
 .hearderset{
     padding-top: 200px;
@@ -341,4 +332,49 @@ background-color: cornsilk;
     width: 320px;
     height: 350px;
     
+}
+
+.contact h1{
+     font-family: sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    
+    
+}
+
+.rowsetting2{
+    text-align: center;
+    
+}
+
+.rowsetting2 p{
+    padding-top: 10px;
+}
+
+
+.wed{
+    background-color: khaki;
+    -webkit-animation: wedding;
+    -webkit-animation-name: wedding;
+    animation-name: wedding;
+    -webkit-animation-duration: 20s;
+    animation-duration: 20s;
+    
+}
+
+@-webkit-keyframes wedding{
+    
+}
+
+@keyframes wedding{
+   
+    0%{background-color: beige;}
+    25%{background-color: coral;}
+    50%{background-color: darkgray;}
+    65%{background-color: firebrick;}
+    80%{background-color: floralwhite;}
+    90%s{background-color: aquamarine;}
+    100%{background-color: cadetblue;}
 }
