@@ -354,7 +354,7 @@ background-color: cornsilk;
 }
 
 
-.wed{
+.wed, .pre{
     background-color: khaki;
     -webkit-animation: wedding;
     -webkit-animation-name: wedding;
@@ -364,11 +364,72 @@ background-color: cornsilk;
     
 }
 
+
+
 @-webkit-keyframes wedding{
+   
+    0%{background-color: beige;}
+    25%{background-color: coral;}
+    50%{background-color: darkgray;}
+    65%{background-color: firebrick;}
+    80%{background-color: floralwhite;}
+    90%s{background-color: aquamarine;}
+    100%{background-color: cadetblue;}
+}
+
+
+
+@keyframes wedding{
+   
+    0%{background-color: beige;}
+    25%{background-color: coral;}
+    50%{background-color: darkgray;}
+    65%{background-color: firebrick;}
+    80%{background-color: floralwhite;}
+    90%s{background-color: aquamarine;}
+    100%{background-color: cadetblue;}
+}
+
+
+.album2 h1{
+    padding-top: 10px;
+    color: brown;
+}
+
+.album2 img{
+    padding: 40px 10px;
+    width: 1200px;
+    height: 600px;
+    border-radius: 10%;
     
 }
 
-@keyframes wedding{
+@-webkit-keyframes album{
+   
+    0%{background-color: beige;}
+    25%{background-color: coral;}
+    50%{background-color: darkgray;}
+    65%{background-color: firebrick;}
+    80%{background-color: floralwhite;}
+    90%s{background-color: aquamarine;}
+    100%{background-color: cadetblue;}
+}
+
+
+
+.album2{
+   background-color: plum;
+    
+    -webkit-animation-name: album;
+    
+    animation-name: album;
+    
+    -webkit-animation-duration: 20s;
+    
+    animation-duration: 20s; 
+}
+
+@keyframes album{
    
     0%{background-color: beige;}
     25%{background-color: coral;}
